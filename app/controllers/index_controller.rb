@@ -8,6 +8,9 @@ class IndexController < ApplicationController
   
   end
 
+  def vue
+  end
+
   private
 
   def resolve_layout
@@ -16,8 +19,10 @@ class IndexController < ApplicationController
       "reactjs"
     when "angular"
       "angular"
+    when "vue"
+      "vue"
     else
-      "default"
+      nil
     end
   end
 end

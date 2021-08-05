@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get "/articles", to: "articles#index"
   get "/reactjs", to: "index#reactjs"
   get "/angular", to: "index#angular"
+  get "/vue", to: "index#vue"
 end
